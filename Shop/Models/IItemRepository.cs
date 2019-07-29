@@ -10,6 +10,7 @@ namespace Shop.Models
         IEnumerable<Item> GetAllItems();
         Item GetItemById(int itemId);
         Item Add(Item newItem);
+        Item Update(Item updatedItem);
         int Commit();
 
     }

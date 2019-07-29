@@ -50,5 +50,10 @@ namespace Shop.Models
         {
             throw new NotImplementedException();
         }
+
+        public Item Update(Item updatedItem)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

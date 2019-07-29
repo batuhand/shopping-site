@@ -8,6 +8,11 @@
         <h3>
             <a href="#">@Model.Name</a>
         </h3>
-        <h4>@Model.ShortDescription</h4>        
+        <h4>@Model.ShortDescription</h4>
+        <div style="width:100%; height:100%;">
+            <img src="@Model.ImgPath">
+        </div>
     </div>
+
 </div>
+<a asp-controller="Image" asp-action="UploadImg" asp-route-id="@Model.Id">Upload a picture for this item!</a>

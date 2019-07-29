@@ -37,3 +37,4 @@ C:\Users\bthnd\source\repos\Shop\Shop\obj\Debug\netcoreapp2.1\Razor\Areas\Identi
 C:\Users\bthnd\source\repos\Shop\Shop\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
 C:\Users\bthnd\source\repos\Shop\Shop\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
 C:\Users\bthnd\source\repos\Shop\Shop\obj\Debug\netcoreapp2.1\Razor\Views\Home\ClientItems.g.cshtml.cs
+C:\Users\bthnd\source\repos\Shop\Shop\obj\Debug\netcoreapp2.1\Razor\Views\Image\UploadImg.g.cshtml.cs

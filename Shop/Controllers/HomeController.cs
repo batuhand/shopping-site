@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Shop.Models;
 using Shop.ViewModels;
@@ -14,7 +17,7 @@ namespace Shop.Controllers
     {
         private readonly IItemRepository _itemRepository;
         private readonly AppDbContext context;
-
+        public static string imgPath;
 
         public HomeController(IItemRepository itemRepository)
         {
@@ -53,11 +56,12 @@ namespace Shop.Controllers
         [HttpPost]
         public IActionResult AddNewItem(Item item)
         {
+            item.ImgPath = imgPath;
             _itemRepository.Add(item);
             _itemRepository.Commit();
             return View();
         }
-
         
+
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -35,6 +36,13 @@ namespace Shop.Models
         public Item GetItemById(int itemId)
         {
             return _appDbContext.Items.FirstOrDefault(p => p.Id == itemId);
+        }
+
+        public Item Update(Item updatedItem)
+        {
+            var entity = _appDbContext.Items.Attach(updatedItem);
+            entity.State = EntityState.Modified;
+            return updatedItem;
         }
     }
 }

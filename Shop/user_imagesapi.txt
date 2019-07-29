@@ -1,0 +1,6 @@
+http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID=29a7352a1c5840ca6062fa5dc83dc1a7
+
+745042 istanbul
+
+api.openweathermap.org/data/2.5/weather?id=745042&APPID=29a7352a1c5840ca6062fa5dc83dc1a7
+ 

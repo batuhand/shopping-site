@@ -13,5 +13,11 @@ namespace Shop.Models
         public string ShortDescription { get; set; }
         public double Price { get; set; }
         public bool IsItemOfTheWeek { get; set; }
+        public string ImgPath { get; set; }
+
+        public void setImgPath(string path)
+        {
+            ImgPath = path;
+        }
     }
 }
