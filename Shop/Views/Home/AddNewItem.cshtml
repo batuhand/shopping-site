@@ -5,13 +5,6 @@
 
 <h2>Adding new Item</h2>
 
-<form asp-controller="Image" asp-action="UploadImg" method="post"
-      enctype="multipart/form-data">
-    <input type="file" name="file" />
-    <button type="submit">Upload Image</button>
-</form>
-<label>Uploaded File= @ViewData["FilePath"]</label>
-
 <form asp-controller="Home" asp-action="AddNewItem" method="post" class="form-horizontal" role="form">
 
     <div class="form-group">
@@ -32,8 +25,6 @@
             <input asp-for="ShortDescription" class="form-control" />
         </div>
     </div>
-    <label asp-for="ImgPath" class="form-control" value="@ViewData["FilePath"]" />
-
     <button type="submit" class="btn btn-primary">Save</button>
 </form>
 

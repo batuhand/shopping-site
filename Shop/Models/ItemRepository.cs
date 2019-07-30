@@ -28,6 +28,13 @@ namespace Shop.Models
             
         }
 
+        public void Delete(int id)
+        {
+            var item = GetItemById(id);
+            if (item != null)
+                _appDbContext.Items.Remove(item);
+        }
+
         public IEnumerable<Item> GetAllItems()
         {
             return _appDbContext.Items;

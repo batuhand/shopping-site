@@ -23,10 +23,17 @@ namespace Shop
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<IItemRepository, ItemRepository>();
            
             services.AddMvc();
+            // Use Azure SQL and a connection string from the configuration.
+            services.AddDbContext<Shop.Models.AppDbContext>(
+                options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            // Automatically update the database.
+            services.BuildServiceProvider()
+                .GetService<Shop.Models.AppDbContext>().Database.Migrate();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

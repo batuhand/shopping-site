@@ -40,3 +40,4 @@ C:\Users\bthnd\source\repos\Shop\Shop\obj\Release\netcoreapp2.1\win-x86\Shop.Vie
 C:\Users\bthnd\source\repos\Shop\Shop\obj\Release\netcoreapp2.1\win-x86\Shop.dll
 C:\Users\bthnd\source\repos\Shop\Shop\obj\Release\netcoreapp2.1\win-x86\Shop.pdb
 C:\Users\bthnd\source\repos\Shop\Shop\obj\Release\netcoreapp2.1\win-x86\Shop.csproj.CopyComplete
+C:\Users\bthnd\source\repos\Shop\Shop\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Image\UploadImg.g.cshtml.cs

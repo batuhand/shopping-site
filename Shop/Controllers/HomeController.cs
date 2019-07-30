@@ -59,9 +59,16 @@ namespace Shop.Controllers
             item.ImgPath = imgPath;
             _itemRepository.Add(item);
             _itemRepository.Commit();
-            return View();
+            return RedirectToAction("Details", new { id = item.Id });
         }
         
+        public IActionResult DeleteItem(int id)
+        {
+            var item = _itemRepository.GetItemById(id);
+            _itemRepository.Delete(id);
+            _itemRepository.Commit();
+            return RedirectToAction("Index");
+        }
 
     }
 }

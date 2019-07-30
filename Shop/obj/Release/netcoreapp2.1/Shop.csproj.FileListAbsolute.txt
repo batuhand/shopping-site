@@ -37,3 +37,4 @@ C:\Users\bthnd\source\repos\Shop\Shop\obj\Release\netcoreapp2.1\Shop.dll
 C:\Users\bthnd\source\repos\Shop\Shop\obj\Release\netcoreapp2.1\Shop.pdb
 C:\Users\bthnd\source\repos\Shop\Shop\obj\Release\netcoreapp2.1\Shop.csproj.CopyComplete
 C:\Users\bthnd\source\repos\Shop\Shop\obj\Release\netcoreapp2.1\Shop.csprojAssemblyReference.cache
+C:\Users\bthnd\source\repos\Shop\Shop\obj\Release\netcoreapp2.1\Razor\Views\Image\UploadImg.g.cshtml.cs

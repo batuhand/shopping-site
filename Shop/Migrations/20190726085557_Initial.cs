@@ -52,7 +52,9 @@ namespace Shop.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                        .Annotation("SqlServer:ValueGenerationStrategy",
+                             Microsoft.EntityFrameworkCore.Metadata.SqlServerValueGenerationStrategy
+                            .IdentityColumn),
                     Name = table.Column<string>(nullable: true),
                     ShortDescription = table.Column<string>(nullable: true),
                     Price = table.Column<double>(nullable: false),

@@ -55,5 +55,10 @@ namespace Shop.Models
         {
             throw new NotImplementedException();
         }
+
+        public void Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

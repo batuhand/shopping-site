@@ -67,7 +67,7 @@ Write(Model.Title);
             WriteLiteral("</h2>\r\n\r\n");
             EndContext();
             BeginContext(159, 141, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d7c89f69463f443b90e13cc60daaaa48", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9173f88bc360412f987a80d2347c72f6", async() => {
                 BeginContext(227, 69, true);
                 WriteLiteral("\r\n    <i class=\"glyphicon glyphicon-zoom-in\"></i>\r\n    Add new Item\r\n");
                 EndContext();
@@ -121,7 +121,7 @@ WriteAttributeValue("", 529, item.ImgPath, 529, 13, false);
             WriteLiteral("</h3>\r\n                    <h3>\r\n                        ");
             EndContext();
             BeginContext(733, 84, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d02fc6443a8b4a65a856b6bc6960932c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bcc85d35ff9245a4a6f044997692cac6", async() => {
                 BeginContext(804, 9, false);
 #line 34 "C:\Users\bthnd\source\repos\Shop\Shop\Views\Home\Index.cshtml"
                                                                                          Write(item.Name);

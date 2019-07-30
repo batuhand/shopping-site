@@ -16,5 +16,7 @@ namespace Shop.Models
         }
 
         public DbSet<Item> Items { get; set; }
+
+     
     }
 }

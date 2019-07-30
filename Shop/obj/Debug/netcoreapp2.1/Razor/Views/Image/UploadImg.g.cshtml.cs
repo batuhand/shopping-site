@@ -60,7 +60,7 @@ using Shop.ViewModels;
             WriteLiteral("\r\n<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(40, 110, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "10e567f392d740b6b3bf2c9e2b4102d3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e38fdaf652d148e3a2fdfe193b312562", async() => {
                 BeginContext(46, 97, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>Upload an Image</title>\r\n");
                 EndContext();
@@ -80,12 +80,12 @@ using Shop.ViewModels;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(152, 307, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ccdf0ebce92b4304b20e8dacd42961f4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "849023ff4266473a9998f15802cc9081", async() => {
                 BeginContext(158, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(164, 216, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d57995492904f0d87618a1a816aa328", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1c2d6e5e15dc4c52942e73544938d070", async() => {
                     BeginContext(271, 102, true);
                     WriteLiteral("\r\n        <input type=\"file\" name=\"file\" />\r\n        <button type=\"submit\">Upload Image</button>\r\n    ");
                     EndContext();

@@ -11,6 +11,7 @@ namespace Shop.Models
         Item GetItemById(int itemId);
         Item Add(Item newItem);
         Item Update(Item updatedItem);
+        void Delete(int id);
         int Commit();
 
     }

@@ -16,3 +16,9 @@
 
 </div>
 <a asp-controller="Image" asp-action="UploadImg" asp-route-id="@Model.Id">Upload a picture for this item!</a>
+
+<a class="btn btn-lg"
+   asp-controller="Home" asp-action="DeleteItem" asp-route-id="@Model.Id">
+     Delete this item
+    <i class="glyphicon glyphicon-trash"></i>
+</a>
